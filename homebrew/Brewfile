@@ -6,6 +6,8 @@ tap 'homebrew/services'
 tap 'homebrew/versions'
 cask 'java'
 
+tap 'caskroom/fonts'
+
 brew 'ack'
 brew 'archey'
 brew 'autoconf'
