@@ -35,7 +35,6 @@ Plug 'tpope/vim-rbenv'
 Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-repeat'
 Plug 'gem.vim'
-Plug 'zerowidth/vim-copy-as-rtf'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'justinmk/vim-gtfo'
 Plug 'jayflo/vim-skip'
@@ -54,6 +53,9 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'sheerun/vim-polyglot'
 Plug 'mxw/vim-jsx'
 Plug 'fleischie/vim-styled-components'
+if has('mac')
+Plug 'zerowidth/vim-copy-as-rtf'
+endif
 call plug#end()
 
 
