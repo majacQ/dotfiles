@@ -39,7 +39,7 @@ bindkey "^[[B" history-beginning-search-forward
 # load every completion after autocomplete loads
 for config_file ($ZSH/**/completion.sh) source $config_file
 
-source "`brew --prefix`/etc/grc.bashrc"
+# source "`brew --prefix`/etc/grc.bashrc"
 
 
 # asdf
@@ -58,7 +58,7 @@ fi
 autoload -U promptinit; promptinit
 prompt pure
 
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 export GH_LOGIN="pengwynn"
 
