@@ -66,4 +66,5 @@ export GH_LOGIN="pengwynn"
 
 source ~/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+echo ""
 screenfetch
