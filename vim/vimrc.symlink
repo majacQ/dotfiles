@@ -53,6 +53,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'sheerun/vim-polyglot'
 Plug 'mxw/vim-jsx'
 Plug 'fleischie/vim-styled-components'
+Plug 'sbdchd/neoformat'
 if has('mac')
 Plug 'zerowidth/vim-copy-as-rtf'
 endif
